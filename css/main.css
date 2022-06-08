@@ -1,0 +1,154 @@
+@font-face {
+    font-family: "Inter";
+    src: url("../fonts/Inter-Bold.woff2") format("woff2"),
+        url("../fonts/Inter-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("../fonts/Inter-Bold.woff2") format("woff2"),
+        url("../fonts/Inter-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("../fonts/Inter-Regular.woff2") format("woff2"),
+        url("../fonts/Inter-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Bold.woff2") format("woff2"),
+        url("../fonts/Roboto-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("../fonts/Inter-Regular.woff2") format("woff2"),
+        url("../fonts/Inter-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Bold.woff2") format("woff2"),
+        url("../fonts/Roboto-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+* {
+    box-sizing: border-box;
+}
+.container{
+    width: 1253px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.tshirt-main{
+    display: flex;
+}
+.tshirt-main-main{
+    background-color: #fff;
+}
+.back-image {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    border-radius: 8px;
+    background-image: url(../images/background-clothes.jpg);
+    background-repeat: no-repeat;
+    width: 690px;
+    text-align: center;
+}
+
+.back-image-show {
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(27px);
+    width: 658px;
+    height: 278px;
+    border-radius: 8px;
+}
+
+.mangcoding-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 130px;
+    margin: 0;
+    margin-bottom: 88px;
+}
+
+.mangcoding-logo::before {
+    display: inline-block;
+    content: "";
+    background-image: url(../images/mancoding-storage-white.svg);
+    text-align: center;
+    width: 32px;
+    height: 32px;
+}
+
+.back-image-socials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+.socials-item{
+    margin-right: 16px;
+    list-style: none;
+}
+
+.tshirt-main-finish{
+    background-image: url(../images/clothes.png);
+    background-repeat: no-repeat;
+    /* width: 919px; */
+    height: 456px;
+}
+
+.tshirt-login{
+    padding-top: 15px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-right: 15px;
+    background-color: #F5F5F5;
+    background-image: url(../images/circle.png);
+    background-position: calc(50% + 130px) calc(30% + -90px);
+    background-repeat: no-repeat;
+    width: 762px;
+    /* height: 262px; */
+}
+.login-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-logo::before{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    content: "";
+    background-image: url(../images/mancoding-storage-black.svg);
+    width: 32px;
+    height: 32px;
+}
