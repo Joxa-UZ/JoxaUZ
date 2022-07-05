@@ -1,4 +1,6 @@
-
+.navbar{
+    z-index: 999;
+}
 .navbar-brand{
     display: flex;
     align-items: center;
@@ -13,4 +15,64 @@
     width: 37px;
     height: 33px;
     
+}
+.loader{
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.925);
+}
+.loop-center{
+    display: flex;
+    align-items: center;
+}
+.loader-logo{
+    margin-right: 100px;
+    transform: scale(1);
+}
+.loader-logo-text{
+    transform: scale(1) translateX(-80px);
+    margin: 0;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    color: #ffff00;
+}
+.loop-center{
+    -webkit-animation-name: logo;
+    animation-name: logo;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    margin-left: 200px;
+}
+.loader-show{
+    display: none;
+}
+@keyframes logo {
+    0% {
+        opacity: 0
+    }
+
+    50% {
+        opacity: 1;
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg)
+    }
+
+    100% {
+        -webkit-transform: scale(4);
+        transform: scale(4)
+    }
 }
