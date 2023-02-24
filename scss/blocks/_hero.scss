@@ -1,0 +1,47 @@
+.hero{
+    height: 100vh;
+    background-color: #04051d;
+}
+.hero-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    // align-items: center;
+    padding-top: 400px;
+}
+.hero-box__text{
+    display: flex;
+    margin: 0;
+    color: #fff;
+}
+.hero-box__text strong{
+    color: #4AB63E;
+    display: flex;
+    margin-left: 10px;
+}
+.hero-box__text strong::after{
+    content: "";
+    width: 20px;
+    height: 20px;
+    display: flex;
+    margin-left: 5px;
+    background-image: url("../images/uz-icon.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.hero-box__text2{
+    color: #fff;
+    font-weight: 400;
+}
+.contact-box__input{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+.contact-box__btn{
+    padding: 10px;
+    border-radius: 10px;
+}
+.contact-box__btn:hover{
+    color: green;
+}
